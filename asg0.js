@@ -16,9 +16,9 @@ function main() {
   ctx.fillStyle = 'rgba(0, 0, 0, 1.0)';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  var v1 = new Vector3([2.25, 2.25, 0.0]);
-  drawVector(v1, "red");
-  //handleDrawEvent();
+  // var v1 = new Vector3([2.25, 2.25, 0.0]);
+  // drawVector(v1, "red");
+  // handleDrawEvent();
 }
 
 function drawVector(v, color) {
